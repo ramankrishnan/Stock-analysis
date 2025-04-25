@@ -1,13 +1,13 @@
 ﻿# Stock-analysis
 
- Step 1: Set Up Your Environment in Ubuntu
-Open your terminal and ensure Python 3 is installed:
+# 1. Install venv module (if not already)
+```sudo apt install python3-venv```
 
-python3 --version
-Install pip if not already installed:
+# 2. Create a virtual environment
+```python3 -m venv venv```
 
-sudo apt update
-sudo apt install python3-pip
-Install Git if not already installed:
+# 3. Activate the virtual environment
+```source venv/bin/activate```
 
-sudo apt install git
+# 4. Install dependencies from requirements.txt
+```pip install -r requirements.txt```
