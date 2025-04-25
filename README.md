@@ -11,3 +11,10 @@
 
 # 4. Install dependencies from requirements.txt
 ```pip install -r requirements.txt```
+
+
+ Correct Way to Run a Streamlit App:
+Run this command instead:
+```
+streamlit run app.py
+```
